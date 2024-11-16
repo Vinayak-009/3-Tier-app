@@ -1,0 +1,16 @@
+sql_instance_name         = "mt-sql"
+project_id                = "django-test-441711"
+region                    = "us-central1"
+database_version          = "MYSQL_8_0"
+sql_tier                  = "db-custom-2-8192"
+sql_disk_autoresize       = false
+sql_disk_autoresize_limit = 20
+sql_disk_size             = 10
+sql_disk_type             = "pd-standard"
+sql_availability_type     = "REGIONAL"
+sql_binary_log_enabled    = true
+sql_backup_enabled        = true
+sql_pitr_enabled          = true
+sql_ipv4_enabled          = true
+private_network           = "projects/django-test-441711/global/networks/deafult"
+authorized_network        = "172.20.176.3"

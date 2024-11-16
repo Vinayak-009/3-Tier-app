@@ -1,0 +1,7 @@
+router_name                       = "mt-router"
+nat_name                          = "multi-tier-gateway"
+project_id                        = "your-project-id"
+network                           = "default"
+region                            = "us-central1"
+nat_ip_allocate_option            = "AUTO_ONLY"
+source_subnetwork_ip_ranges_to_nat = "ALL_SUBNETWORKS_ALL_IP_RANGES"
